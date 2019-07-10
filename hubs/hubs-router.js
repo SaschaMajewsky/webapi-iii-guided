@@ -69,6 +69,7 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
+// /api/hubs/id <  req.params.id
 router.put('/:id', async (req, res) => {
   try {
     const hub = await Hubs.update(req.params.id, req.body);
@@ -119,3 +120,5 @@ router.post('/:id/messages', async (req, res) => {
 });
 
 module.exports = router;
+
+// https://github.com /luishrd ?tab=repositories
