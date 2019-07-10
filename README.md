@@ -1,3 +1,4 @@
+Sascha Majewsky
 # Web API III Guided Project
 
 Guided project for **Web API III** module.
